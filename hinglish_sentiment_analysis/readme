@@ -1,0 +1,10 @@
+This is a Hinglish Sentiment Classifier, which first converts hinglish to hindi and then classifies the sentiment into positive, negative and neutral.
+The Hinglish-Hindi converter is a custom encoder-decoder seq2seq network train on a small amount of data.
+Hindi embeddings are taken from FastText embeddings since they are one of the largest available embeddings for Hindi.
+
+hindi_sentiment_train contains the training code for the sentiment classifier.
+get_sentiment contains the prediction code.
+
+Both notebooks can be run end to end.
+
+Make sure you download the FastText embeddings through the notebook.
